@@ -5,14 +5,15 @@ public class No<T> {
 	private T elemento;
 	private No<T> proximo;
 	
+	
+	//Declaração lista com apenas 1 espaço
 	public No(T elemento) {
-		super();
 		this.elemento = elemento;
 		this.proximo = null;
 	}
 
+	// referencia 
 	public No(T elemento, No<T> proximo) {
-		super();
 		this.elemento = elemento;
 		this.proximo = proximo;
 	}
